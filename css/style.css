@@ -1,0 +1,63 @@
+.clearfix{clear: both}
+.no-side-padding{padding-left: 0; padding-right: 0}
+
+.jumbotron{padding-top: 95px;height: 530px; background: url(../img/jumbotron.png); background-size: 100%;
+	opacity: 0.7;background-position: 0 850px;}
+.jumbo-box{background-color: rgba(255,255,255,0.5); width: 600px; font-size: 40px; padding: 40px 50px; 
+	margin-left: 50px;margin-top: 65px;}
+
+/*Contact Page*/
+header .navbar-default .navbar-nav>li>a{color: #fff}
+nav.navbar.navbar-default{background-color: #74B8FF;padding: 40px;height: 126px;color: #fff;}
+.contact .container{text-align: center;}
+.contact h3{color: #63A2E7;}
+.thumbnail div{font-size: 19px;}
+.group{width: 80%;padding-top: 30px;margin: 0 auto;}
+.contact.grey-box{height: 100vh;margin: 0 auto; background-color: #ECF4F9;padding-top: 80px;}
+.white-bg{background-color: #fff}
+.header-group p{display: inline-block;color: #63A2E7; font-size: 23px;padding: 0 13px 0;}
+.header-group .glyphicon{font-size: 40px;color: #63A2E7;vertical-align: middle;}
+footer{ margin-top: 15px; clear: both; width: 100%;padding: 10px; text-align: center; color: #07394e;
+    font-size: 15px; position: relative;  bottom: 0;   background-color: #f5f5f5;}
+.text p{margin: 0;font-size: 13px}
+.clients.about h4{margin-bottom: 1px;margin-top: 19px;padding-top: 5px;}
+.caption.phone{padding-top: 15px}
+
+
+/*CLIENTS*/
+.clients h1{padding-bottom: 15px;}
+.clients{/* padding-top: 60px; *//* margin: 0 auto; */}
+.clients .thumbnail{display: table-cell;border: 2px solid #F0EDED; width: 300px; height: inherit;padding: 10px;
+	vertical-align: middle;margin: 10px 10px;}
+.clients-container{/* clear: both; */padding: 30px 30px 40px;/* background-color: red; */box-shadow: 0px 0px  7px 1px rgba(200, 198, 198, 0.17);}
+.clients-container h1 {color: #7F8790;border-bottom: 1px solid #eee;/* margin: 0; */}
+
+.testi-box{background-color: #f7f7f7;padding: 25px; margin-bottom: 25px;}
+.profile{font-size: 12px;}
+
+/*ABOUT*/
+.team{padding-top: 30px;text-align: center;}
+.team .thumbnail{display: inline-block;width: 300px; /* height: 300px; */ margin: 0 20px}
+.about .text{font-size: 16px; /* padding: 15px 0 50px; */ border-bottom: 1px solid #F0EDED }
+.about .thumbnail{height: 363px;}
+.about .thumbnail .text{border-bottom: 0}
+.about .thumbnail h3{color: #51B2DA;}
+/*.about h1{padding-bottom: 10px;color: #C7CBD0;border-bottom: 1px solid #eee;}*/
+.about h4{color: #8D9095; padding-top: 20px}
+
+
+/*PROJECTS*/
+.products-row{ display: table-cell; text-align: center; border-bottom: 1px solid #F0EEEE; padding: 20px 0; margin-bottom: 13px;}
+.products-row div{display: inline-block;}
+.prj{display:inline-block;width: 350px;height: 350px;border-radius: 100%;border: 7px solid #f7f7f7;}
+.prj-text h3{color: #51B2DA;/* color: #C7CBD0 */}
+.prj-text ul li{text-align: left;}
+
+.row-in-development{text-align: center;}
+.in-dev-box{display: inline-block; padding: 20px 20px;}
+.in-dev-box h5{color: #A1A7AA; font-weight: bold;font-size: 15px;}
+.small-prj{width: 300px;height: 300px}
+.resilience{background: url('../img/resilience.png') 1114px 412px;}
+.ucd{background: url('../img/ucd.png');}
+.bms{background: url('../img/bms.png') -127px -42px;}
+.minmaker{background: url('../img/minmaker.png') -204px 1267px;}
