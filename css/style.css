@@ -1,15 +1,19 @@
 .clearfix{clear: both}
 .no-side-padding{padding-left: 0; padding-right: 0}
+/*.jumbotron{padding-top: 95px;height: 530px; background: url(../img/02.jpg); background-size: 100%;	opacity: 0.7;background-position: 0 850px;}*/
 
-.jumbotron{padding-top: 95px;height: 530px; background: url(../img/jumbotron.png); background-size: 100%;
-	opacity: 0.7;background-position: 0 850px;}
+.jumbotron{padding-top: 95px;height: 530px; background: url(../img/jumbotron.png); background-size: 100%;	opacity: 0.7;background-position: 0 850px;}
 .jumbo-box{background-color: rgba(255,255,255,0.5); width: 600px; font-size: 40px; padding: 40px 50px; 
 	margin-left: 50px;margin-top: 65px;}
 
 /*Contact Page*/
+.cust-navbar-header .cust-brand, .cust-navbar-header .cust-logo{display: inline-block;}
+.cust-navbar-header{width: 50%}
+.cust-brand img{vertical-align: text-top;width: 35%;margin-top: -28px;margin-left: -17px;}
+.cust-logo img{width: 75px;height: 75px;margin-top: -13px;}
 header .navbar-default .navbar-nav>li>a{color: #fff}
-.navbar-default .navbar-brand.cust-brand{font-size: 30px;}
-nav.navbar.navbar-default{background-color: #74B8FF;padding: 40px;height: 126px;color: #fff;}
+.navbar-default .navbar-brand.cust-brand{font-size: 26px;}
+nav.navbar.navbar-default{background-color: #5CA3ED;padding: 40px;height: 126px;color: #fff;}
 .contact .container{text-align: center;}
 .contact h3{color: #63A2E7;}
 .thumbnail div{font-size: 19px;}
@@ -30,11 +34,13 @@ footer{ margin-top: 15px; clear: both; width: 100%;padding: 10px; text-align: ce
 .clients{/* padding-top: 60px; *//* margin: 0 auto; */}
 .clients .thumbnail{display: table-cell;border: 2px solid #F0EDED; width: 300px; height: inherit;padding: 10px;
 	vertical-align: middle;margin: 10px 10px;}
-.clients-container{/* clear: both; */padding: 30px 30px 40px;/* background-color: red; */box-shadow: 0px 0px  7px 1px rgba(200, 198, 198, 0.17);}
+.clients-container{/* clear: both; */padding: 30px 30px 40px;/* background-color: red; */box-shadow: 0px 1px  4px 2px rgba(0,0,0,0.1);}
 .clients-container h1 {color: #7F8790;border-bottom: 1px solid #eee;/* margin: 0; */}
 
 .testi-box{background-color: #f7f7f7;padding: 25px; margin-bottom: 25px;}
 .profile{font-size: 12px;}
+
+.clients .thumbnail img{width: 100%;}
 
 /*ABOUT*/
 .team{padding-top: 30px;text-align: center;/* z-index: 1; */}
@@ -50,7 +56,7 @@ footer{ margin-top: 15px; clear: both; width: 100%;padding: 10px; text-align: ce
 /*PROJECTS*/
 .products-row{ display: table-cell; text-align: center; border-bottom: 1px solid #F0EEEE; padding: 20px 0; margin-bottom: 13px;}
 .products-row div{display: inline-block;}
-.prj{display:inline-block;width: 350px;height: 350px;border-radius: 100%;border: 7px solid #f7f7f7;}
+.prj{display:inline-block;width: 350px;height: 350px;border-radius: 100%;border: 7px solid #E2EAF1;}
 .prj-text h3{color: #51B2DA;/* color: #C7CBD0 */}
 .prj-text ul li{text-align: left;}
 
@@ -60,6 +66,8 @@ footer{ margin-top: 15px; clear: both; width: 100%;padding: 10px; text-align: ce
 .small-prj{width: 300px;height: 300px}
 .resilience{background: url('../img/resilience.png') 1114px 412px;}
 .ucd{background: url('../img/ucd.png');}
+.ucd2{background: url('../img/ucd.png') 400px 717px;}
+
 .bms{background: url('../img/bms.png') -127px -42px;}
 .minmaker{background: url('../img/minmaker.png') -204px 1267px;}
 
